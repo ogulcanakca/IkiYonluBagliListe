@@ -49,7 +49,7 @@ void Liste::onuneekle(int sira, int veri) {
 
 		Dugum* yeniDugum = new Dugum(veri);
 
-		aktifDugum->sonraki = yeniDugum;
+		aktifDugum->onceki = yeniDugum;
 		yeniDugum->sonraki = aktifDugum;
 		yeniDugum->onceki = aktifOnceki;
 
