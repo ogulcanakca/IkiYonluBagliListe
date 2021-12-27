@@ -16,7 +16,7 @@ public:
 	void cikar(int sira);
 	int ilkGetir();
 	friend ostream& operator<<(ostream& os, Liste& liste); 
-	// öteleme operatörümü aşırı yükledim, böylece cout nesnemi hemen yazdırabilecek.
+	// öteleme operatörümü aşırı yükledim, böylece cout her nesnemi hemen yazdırabilecek.
 	Dugum* dugumGetir(int sira);
 
 private:
